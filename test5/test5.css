@@ -1,0 +1,370 @@
+@font-face {
+    font-family: byekan;
+    src: url(fonts/BYekan.woff);
+    
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers
+ article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset  */
+
+.header{
+	background-color: #2f6ea8;
+	height: 40px;
+	position: relative;
+	text-align: left;
+	
+	
+}
+.header span{
+	font-family: byekan;
+	color: white;
+	position: absolute;
+	margin-top: 10PX;
+	margin-left: 20px;
+	
+}
+
+.enter{
+	/* background-color: red; */
+	height: 130px;
+	width: 70%;;
+	margin:60px auto;
+	
+}
+.enter #enter1{
+	
+	/* background-color: rosybrown; */
+	display: block;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-family: byekan;
+	font-size: 15px;
+	
+	
+	
+
+
+
+}
+.enter #enter2  {
+	/* background-color: royalblue; */
+	display: block;
+	font-family: byekan;
+	text-align: center;	
+	
+	
+}
+.enter #enter2 a{
+	color: white;
+	text-decoration: none;
+	background-color: #6d4052;
+	padding: 10px 50px;
+	border: 1px solid white;
+	border-radius: 5px;
+
+}
+.enter #enter2 a:hover{
+	background-color: #47323a;
+}
+.part2{
+	/* background-color: tomato; */
+	width: 70%;
+	margin: 0px auto;
+}
+.part2 .title1{
+	/* background-color: turquoise; */
+	text-align: right;
+	font-family: byekan;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgb(224, 222, 222);
+}
+.container{
+	width: 95%;
+	margin: 0 auto;
+}
+.img{
+	/* background-color: green; */
+}
+.img img{
+	width: 100px;
+	/* background-color: honeydew; */
+	display:block;
+	margin:0px auto;
+
+}
+.img p{
+	/* background-color: rosybrown; */
+	color: rgb(19, 18, 18);
+	text-align: center;
+	font-family: byekan;
+}
+.text1{
+	/* background-color: yellow; */
+	text-align: center;
+	font-family: byekan;
+}
+/* css second page */
+#body2{
+
+	background-color:silver;
+}
+
+.img2 #img2{
+	
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+.blue-box{
+	background-image: url(assets/Capture.JPG);
+	height: 50px;
+	margin-top: 3px;
+	text-align: center;
+}
+.blue-box-text{
+	font-family: byekan;
+	color: white;
+	position: relative;
+	top: 15px;
+	
+}
+.totall-form{
+	background-color: white;
+	height: 400px;
+	position: relative;
+}
+.totall-form-text{
+	/* background-color: teal; */
+	font-family: byekan;
+	direction: rtl;
+	padding-right:20px;
+	font-size: 15px;
+	position: absolute;
+	/* float: left; */
+	
+	right: 31%;
+	top: 50px;
+
+
+}
+#span1{
+	color: orange;
+	font-size:18px;
+}
+.form-box{
+	background-color: rgb(231, 223, 231);
+	width: 25%;
+	height: 350px;
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	
+}
+#uname{
+	/* background-color: palegoldenrod; */
+	/* float: right; */
+	position: absolute;
+	top: 90px;
+	right: 5%;
+	font-family: byekan;
+	color: rgb(26, 26, 172);
+	
+}
+input[type=text]{
+	position: absolute;
+	/* float: right; */
+	top: 120px;
+	right: 5%;
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+#password{
+	/* background-color: palegoldenrod; */
+	
+	position: absolute;
+	top: 160px;
+	right: 5%;
+	font-family: byekan;
+	color: rgb(26, 26, 172);
+	
+}
+input[type=password]{
+	position: absolute;
+	/* float: right; */
+	top: 190px;
+	right: 5%;
+	width: 70%;
+	/* margin: 0 auto; */
+	display: block;
+}
+
+
+.form-inf{
+	/* background-color: palegreen; */
+	position: relative;
+	direction: rtl;
+	width: 90%;
+	margin: 0px auto;
+	top: 20px;
+	text-align: center;
+	font-family: byekan;
+	padding-bottom: 10px;
+	border-bottom: 2px solid silver;
+
+}
+.find-pass{
+	position: absolute;
+	
+	right: 5%;
+	font-family: byekan;
+	top: 240px;
+	
+}
+.find-pass a{
+	color:  rgb(26, 26, 172);
+	text-decoration: none;
+}
+.btm-brdr{
+	background-color:silver;
+	height: 2px;
+	position: absolute;
+	display: block;
+	top:260px;
+	right: 5%;
+	width: 90%;
+	margin: 0 auto;
+}
+#submit{
+	position: absolute;
+	top: 290px;
+	right: 5%;
+	padding: 5px 20px;
+	background-color: rgb(29, 74, 117);
+	color: white;
+	border-radius: 5px;
+	font-family: byekan;
+}
+#submit:hover{
+	background-color: red;
+	cursor: pointer;
+}
+.footer1{
+	font-family: byekan;
+	position: relative;
+	top: 10px;
+	color: rgb(99, 92, 92);
+	font-size: 10px; !
+}
+
+@media screen and (max-width: 992px) {
+	.form-box{
+		width: 92%;
+		top: 55px;
+		right: 4%;
+		position: absolute;
+		height: 330px;
+		
+		display: block;
+	}
+	.totall-form-text{
+		right: 20px;
+		top: 10px;
+
+		
+	}
+
+  
+}
+@media screen and (max-width: 550px){
+	#submit{
+		width: 90%;
+	}
+	#uname{
+		text-align: center;
+		/* background-color: brown; */
+		display: block;
+		/* margin: 0 auto; */
+		position: relative;
+		right: 0px;
+		top: 60px;
+	}
+	#password{
+		text-align: center;
+		position: relative;
+		right: 0px;
+		top: 120px;
+		display: block;
+	}
+	input[type=text]{
+		width: 90%;
+		right: 4%;
+		
+	}
+	input[type=password]{
+		width: 90%;
+		right: 4%;
+		
+	}
+	.find-pass{
+		text-align: center;
+		position: relative;
+		top: 180px;
+		display: block;
+		right: 0px;
+	}
+	.container{
+		width: 100%;
+	}
+
+
+
+
+}
+
+
